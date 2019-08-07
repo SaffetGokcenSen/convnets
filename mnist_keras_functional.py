@@ -5,6 +5,7 @@ from keras.utils import to_categorical
 from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau, TensorBoard
 from sklearn.model_selection import train_test_split
 
+# the network structure is from "Deep Learning with Python" by François Chollet
 # training a convolutional network on mnist data set using Keras with Tensorflow backend
 
 inputs = Input(shape=(28, 28, 1))
